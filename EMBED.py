@@ -1,4 +1,5 @@
 import discord
+import os
 import random
 import asyncio
 import datetime
@@ -90,6 +91,8 @@ async def on_member_join(member):
     else:  # if 구문에서 채널을 찾지 못한 경우
         channel = await member.guild.create_text_channel(name="입장로그")
         await channel.send(embed=embed)
+
+access_token = os.environ["BOT_TOKEN"]
         
 # 디스코드 봇 토큰을 입력하세요
-client.run('MTIzMDA0OTk4MjczNjc2NDkyOQ.G7zzfF.lKbWofs5EaGnT-noxAXfEaanmPaBtliKCgzwNs')
+client.run(access_token)
