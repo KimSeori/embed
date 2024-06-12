@@ -1,5 +1,5 @@
-discord.py==3.12.3
-random.py==3.12.3
-asyncio.py==3.12.3
-atetime.py==3.12.3
-pytz.py==3.12.3
+discord.py==2.31.0
+random.py==2.31.0
+asyncio.py==2.31.0
+atetime.py==2.31.0
+pytz.py==2.31.0
